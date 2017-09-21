@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deringmobile.jbh.designmaterialdemo.activity.DetailActivity">
+
+    <com.deringmobile.jbh.designmaterialdemo.weights.FlowLayout
+        android:id="@+id/mFlowLaout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:normalBackgroundResource="@drawable/nomal_bg"
+        app:pressBackgroundResource="@drawable/press_bg">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adfasdfafdasdfasdfasdf"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adfasdfafdasdfas"/>
+    </com.deringmobile.jbh.designmaterialdemo.weights.FlowLayout>
+</FrameLayout>

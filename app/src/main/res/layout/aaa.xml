@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.deringmobile.jbh.designmaterialdemo.weights.NavBar-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/navBar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="60dp"-->
+        <!--app:leftText="返回"-->
+        <!--app:rightText="right"-->
+        <!--app:titleText="标题"-->
+        <!--app:textSize="10dp"-->
+        <!--app:textColor="@android:color/black">-->
+    <!--</com.deringmobile.jbh.designmaterialdemo.weights.NavBar>-->
+
+
+    <!--<com.deringmobile.jbh.designmaterialdemo.weights.MyView-->
+        <!--android:id="@+id/mMyView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#000"/>-->
+    <!--<com.deringmobile.jbh.designmaterialdemo.weights.FlowLayout-->
+        <!--android:id="@+id/mFlowLaout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/black">-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="dfasdfas"/>-->
+    <!--</com.deringmobile.jbh.designmaterialdemo.weights.FlowLayout>-->
+
+
+    <com.deringmobile.jbh.designmaterialdemo.weights.AutoLineView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

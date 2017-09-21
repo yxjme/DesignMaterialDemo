@@ -1,0 +1,38 @@
+package com.deringmobile.jbh.designmaterialdemo.adapter;
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+
+import java.util.List;
+
+/**
+ * Created by zbsdata on 2017/9/2.
+ */
+
+public class MyPagerAdapter extends FragmentPagerAdapter {
+
+
+    private List<Fragment> fragments;
+    private List<String> titles;
+
+    public MyPagerAdapter(FragmentManager fm,List<Fragment> fragments,List<String> titles) {
+        super(fm);
+        this.fragments=fragments;
+        this.titles=titles;
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+        return fragments!=null && fragments.size() > 0  ?  fragments.get(position) : null;
+    }
+    @Override
+    public int getCount() {
+        return fragments.size();
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return titles.get(position);
+    }
+}

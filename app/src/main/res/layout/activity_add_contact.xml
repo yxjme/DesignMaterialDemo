@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deringmobile.jbh.designmaterialdemo.activity.AddContactActivity">
+
+
+    <com.deringmobile.jbh.designmaterialdemo.weights.AutoLineSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.deringmobile.jbh.designmaterialdemo.weights.TextViewScrollerVertical
+        android:id="@+id/aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="到撒发的发"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="到撒发的fsfgsdfg dsf gdf gdsf ==g发"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="到撒发的发"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="啊思路等方面撒啊"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="啊思路等方大法师打发啊面撒啊"/>
+
+
+    </com.deringmobile.jbh.designmaterialdemo.weights.TextViewScrollerVertical>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ed_add_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入添加联系人"/>
+        <Button
+            android:id="@+id/btn_add_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/ed_add_contact"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_add_contact_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入添加联系人原因"/>
+
+</LinearLayout>
